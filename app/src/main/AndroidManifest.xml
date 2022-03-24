@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appgestiongastos">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppGestionGastos">
+        <activity
+            android:name=".frmListaGastos"
+            android:exported="false"
+            android:label="@string/listaGastos"/>
+        <activity
+            android:name=".frmGastosPorCategoria"
+            android:exported="false"
+            android:label="@string/gastosCategoria"/>
+        <activity
+            android:name=".frmAgregarGasto"
+            android:exported="false"
+            android:label="@string/agregarGasto" />
+        <activity
+            android:name=".frmPrincipal"
+            android:exported="false"
+            android:theme="@style/Theme.AppGestionGastos.ActionBar" />
+        <activity
+            android:name=".frmRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".frmLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppGestionGastos.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@drawable/agregar_gasto"
+            android:title="Agregar Gasto"/>
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@drawable/gasto_categoria"
+            android:title="Gastos por Categoria"/>
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@drawable/lista_gastos"
+            android:title="Lista de Gastos"/>
+    </group>
+
+    <item
+        android:title="Más opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_item_seven"
+                android:icon="@drawable/logout"
+                android:title="Cerrar Sesión"/>
+        </menu>
+    </item>
+</menu>

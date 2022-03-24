@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gestionar Gastos</string>
+    <!-- Para el formulario Login -->
+    <string name="bienvenida">Bienvenido</string>
+    <string name="detalleingreso">Ingrese a su cuenta para continuar</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="clave">Contraseña</string>
+    <string name="olvideClave">Olvidé la contraseña</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="registro">Registrarse</string>
+    <!-- Para el formulario Registro -->
+    <string name="mensajeRegistro">Únase a la App</string>
+    <string name="detalleRegistro">Regístrate para comenzar</string>
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="correoElectronico">Correo Electrónico</string>
+    <string name="claveRegistro">Contraseña</string>
+    <string name="botonRegistro">Aceptar</string>
+    <string name="mensajeInicioSesion">Ya tienes cuenta? Inicie Sesión</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="agregarGasto">Agregar Gasto</string>
+    <string name="gastosCategoria">Lista de Gastos por Categoria</string>
+    <string name="listaGastos">Lista de Gastos por Fecha</string>
+</resources>
